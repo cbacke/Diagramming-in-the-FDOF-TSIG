@@ -70,26 +70,40 @@ Purpose / Scope:
 
 ### 3.1. UML
 
-- [UML diagram types (Wikipedia)](https://en.wikipedia.org/wiki/Unified_Modeling_Language#Diagrams)
-    - Structural UML diagrams
-        - **Class diagram**
-        - **Component diagram**
-        - Composite structure diagram
-        - Deployment diagram
-        - **Object diagram**
-        - Package diagram
-        - Profile diagram
-    - Behavioral UML diagrams
-        - **Activity diagram**
-        - Communication diagram
-        - Interaction overview diagram
-        - **Sequence diagram**
-        - **State diagram**
-        - Timing diagram
-        - **Use case diagram**
 - [ISO/IEC 19501:2005(E) "Unified Modeling Language Specification" (PDF)](https://www.omg.org/spec/UML/ISO/19501/PDF)
     - [Source: Object Management Group (omg.org)](https://www.omg.org/about/)
 - [uml-diagrams.org](https://www.uml-diagrams.org/)
+- [UML diagram types (Wikipedia)](https://en.wikipedia.org/wiki/Unified_Modeling_Language#Diagrams)
+    - Behavioral UML diagrams
+        - **Activity diagram**
+            - [Overview (uml-diagrams.org)](https://www.uml-diagrams.org/activity-diagrams.html)
+            - [Examples (uml-diagrams.org)](https://www.uml-diagrams.org/activity-diagrams-examples.html)
+        - Communication diagram
+        - Interaction overview diagram
+        - **Sequence diagram**
+            - [Overview (uml-diagrams.org)](https://www.uml-diagrams.org/sequence-diagrams.html)
+            - [Examples (uml-diagrams.org)](https://www.uml-diagrams.org/sequence-diagrams-examples.html)
+        - **State machine diagram**
+            - [Overview (uml-diagrams.org)](https://www.uml-diagrams.org/state-machine-diagrams.html)
+            - [Examples (uml-diagrams.org)](https://www.uml-diagrams.org/state-machine-diagrams-examples.html)
+        - Timing diagram
+        - **Use case diagram**
+            - [Overview (uml-diagrams.org)](https://www.uml-diagrams.org/use-case-diagrams.html)
+            - [Examples (uml-diagrams.org)](https://www.uml-diagrams.org/use-case-diagrams-examples.html)
+    - Structural UML diagrams
+        - **Class diagram**
+            - [Overview (uml-diagrams.org)](https://www.uml-diagrams.org/class-diagrams-overview.html)
+            - [Examples (uml-diagrams.org)](https://www.uml-diagrams.org/class-diagrams-examples.html)
+        - **Component diagram**
+            - [Overview (uml-diagrams.org)](https://www.uml-diagrams.org/component-diagrams.html)
+            - [Examples (uml-diagrams.org)](https://www.uml-diagrams.org/component-diagrams-examples.html)
+        - Composite structure diagram
+        - Deployment diagram
+        - **Object diagram**
+            - [Overview (uml-diagrams.org)](https://www.uml-diagrams.org/class-diagrams-overview.html#object-diagram)
+            - [Examples (uml-diagrams.org)](https://www.uml-diagrams.org/online-shopping-user-login-uml-object-diagram-example.html)
+        - Package diagram
+        - Profile diagram
 
 ### 3.2. Non-UML (Selection)
 
