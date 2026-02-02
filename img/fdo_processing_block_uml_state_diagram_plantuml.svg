@@ -1,0 +1,161 @@
+<?plantuml 1.2026.2beta2?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="STATE" height="1178px" preserveAspectRatio="none" style="width:860px;height:1178px;background:#FFFFFF;" version="1.1" viewBox="0 0 860 1178" width="860px" zoomAndPan="magnify">
+  <defs/>
+  <g>
+    <ellipse cx="204" cy="16" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1;"/>
+    <g>
+      <rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="114.6777" x="146.66" y="87"/>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="146.66" x2="261.3377" y1="113.2969" y2="113.2969"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94.6777" x="156.66" y="104.9951">PID_Received</text>
+    </g>
+    <g>
+      <rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="114.2266" x="146.89" y="214"/>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="146.89" x2="261.1166" y1="240.2969" y2="240.2969"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="94.2266" x="156.89" y="231.9951">PID_Resolved</text>
+    </g>
+    <g>
+      <rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="54.6787" x="187.66" y="706"/>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="187.66" x2="242.3387" y1="732.2969" y2="732.2969"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34.6787" x="197.66" y="723.9951">Error</text>
+    </g>
+    <g>
+      <rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="123.8174" x="142.09" y="341"/>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="142.09" x2="265.9074" y1="367.2969" y2="367.2969"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103.8174" x="152.09" y="358.9951">Record_Parsed</text>
+    </g>
+    <g>
+      <rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="127.7275" x="218.14" y="452"/>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="218.14" x2="345.8675" y1="478.2969" y2="478.2969"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107.7275" x="228.14" y="469.9951">Type_Validated</text>
+    </g>
+    <g>
+      <rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="137.4756" x="394.26" y="579"/>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="394.26" x2="531.7356" y1="605.2969" y2="605.2969"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117.4756" x="404.26" y="596.9951">Profile_Validated</text>
+    </g>
+    <g>
+      <rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="168.6064" x="277.7" y="706"/>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="277.7" x2="446.3064" y1="732.2969" y2="732.2969"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148.6064" x="287.7" y="723.9951">Metadata_Processing</text>
+    </g>
+    <g>
+      <rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="135.7393" x="294.13" y="817"/>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="294.13" x2="429.8693" y1="843.2969" y2="843.2969"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115.7393" x="304.13" y="834.9951">Data_Processing</text>
+    </g>
+    <g>
+      <rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="171.5596" x="276.22" y="928"/>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="276.22" x2="447.7796" y1="954.2969" y2="954.2969"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151.5596" x="286.22" y="945.9951">Collection_Processing</text>
+    </g>
+    <g>
+      <rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="56.832" x="300.58" y="1039"/>
+      <line style="stroke:#181818;stroke-width:0.5;" x1="300.58" x2="357.412" y1="1065.2969" y2="1065.2969"/>
+      <text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36.832" x="310.58" y="1056.9951">Done</text>
+    </g>
+    <ellipse cx="239" cy="1161" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1;"/>
+    <ellipse cx="239" cy="1161" fill="#222222" rx="6" ry="6" style="stroke:#222222;stroke-width:1;"/>
+    <!--link *start* to PID_Received-->
+    <g class="link" data-entity-1="ent0002" data-entity-2="ent0003" data-link-type="dependency" data-source-line="1" id="lnk4">
+      <path d="M204,26.36 C204,40.29 204,60.95 204,80.65" fill="none" id="*start*-to-PID_Received" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="204,86.65,208,77.65,204,81.65,200,77.65,204,86.65" style="stroke:#181818;stroke-width:1;"/>
+    </g>
+    <!--link PID_Received to PID_Resolved-->
+    <g class="link" data-entity-1="ent0003" data-entity-2="ent0005" data-link-type="dependency" data-source-line="3" id="lnk6">
+      <path d="M204,137.4 C204,159.42 204,185.66 204,207.66" fill="none" id="PID_Received-to-PID_Resolved" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="204,213.66,208,204.66,204,208.66,200,204.66,204,213.66" style="stroke:#181818;stroke-width:1;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73.1885" x="205" y="180.0669">resolve PID</text>
+    </g>
+    <!--link PID_Resolved to Error-->
+    <g class="link" data-entity-1="ent0005" data-entity-2="ent0007" data-link-type="dependency" data-source-line="4" id="lnk8">
+      <path d="M146.46,250.8 C88,265.48 6,298.03 6,365 C6,365 6,365 6,605 C6,688.5 124.4625,716.6301 181.3225,725.5501" fill="none" id="PID_Resolved-to-Error" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="187.25,726.48,178.9787,721.1335,182.3104,725.7051,177.7388,729.0368,187.25,726.48" style="stroke:#181818;stroke-width:1;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104.9712" x="7" y="481.5669">resolution failed</text>
+    </g>
+    <!--link PID_Resolved to Record_Parsed-->
+    <g class="link" data-entity-1="ent0005" data-entity-2="ent0009" data-link-type="dependency" data-source-line="6" id="lnk10">
+      <path d="M204,264.4 C204,286.42 204,312.66 204,334.66" fill="none" id="PID_Resolved-to-Record_Parsed" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="204,340.66,208,331.66,204,335.66,200,331.66,204,340.66" style="stroke:#181818;stroke-width:1;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82.5068" x="205" y="307.0669">parse record</text>
+    </g>
+    <!--link Record_Parsed to Error-->
+    <g class="link" data-entity-1="ent0009" data-entity-2="ent0007" data-link-type="dependency" data-source-line="7" id="lnk11">
+      <path d="M198.92,391.46 C192.53,423.55 181.94,481.7 178,532 C173.05,595.28 191.8044,662.6707 204.2544,699.8407" fill="none" id="Record_Parsed-to-Error" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="206.16,705.53,207.0944,695.7256,204.572,700.7889,199.5087,698.2664,206.16,705.53" style="stroke:#181818;stroke-width:1;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76.4829" x="179" y="545.0669">parse failed</text>
+    </g>
+    <!--link Record_Parsed to Type_Validated-->
+    <g class="link" data-entity-1="ent0009" data-entity-2="ent0012" data-link-type="dependency" data-source-line="9" id="lnk13">
+      <path d="M221.5,391.46 C234.35,409.41 248.2285,428.8105 261.0585,446.7405" fill="none" id="Record_Parsed-to-Type_Validated" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="264.55,451.62,262.5657,441.9731,261.6404,447.5538,256.0597,446.6285,264.55,451.62" style="stroke:#181818;stroke-width:1;"/>
+    </g>
+    <!--link Type_Validated to Error-->
+    <g class="link" data-entity-1="ent0012" data-entity-2="ent0007" data-link-type="dependency" data-source-line="10" id="lnk14">
+      <path d="M275.58,502.16 C262.8,550.21 235.8818,651.4515 223.0418,699.7415" fill="none" id="Type_Validated-to-Error" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="221.5,705.54,227.6784,697.8701,222.7848,700.7079,219.947,695.8144,221.5,705.54" style="stroke:#181818;stroke-width:1;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="97.335" x="256" y="608.5669">type mismatch</text>
+    </g>
+    <!--link Type_Validated to Profile_Validated-->
+    <g class="link" data-entity-1="ent0012" data-entity-2="ent0015" data-link-type="dependency" data-source-line="12" id="lnk16">
+      <path d="M317.33,502.4 C349.22,524.42 390.9627,553.2507 422.8227,575.2507" fill="none" id="Type_Validated-to-Profile_Validated" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="427.76,578.66,422.6269,570.2545,423.6456,575.8189,418.0812,576.8376,427.76,578.66" style="stroke:#181818;stroke-width:1;"/>
+    </g>
+    <!--link Profile_Validated to Error-->
+    <g class="link" data-entity-1="ent0015" data-entity-2="ent0007" data-link-type="dependency" data-source-line="13" id="lnk17">
+      <path d="M393.91,629.24 C371.81,637.78 347.52,648.01 326,659 C296.26,674.19 269.272,691.7331 247.332,706.9331" fill="none" id="Profile_Validated-to-Error" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="242.4,710.35,252.076,708.5127,246.51,707.5026,247.5201,701.9366,242.4,710.35" style="stroke:#181818;stroke-width:1;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88.4673" x="327" y="672.0669">profile invalid</text>
+    </g>
+    <!--link Profile_Validated to Metadata_Processing-->
+    <g class="link" data-entity-1="ent0015" data-entity-2="ent0018" data-link-type="dependency" data-source-line="15" id="lnk19">
+      <path d="M452.29,629.32 C445.35,643.68 435.47,661.76 424,676 C415.4,686.67 409.1076,693.0511 398.8876,701.7111" fill="none" id="Profile_Validated-to-Metadata_Processing" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="394.31,705.59,403.7623,702.8234,398.1247,702.3576,398.5905,696.72,394.31,705.59" style="stroke:#181818;stroke-width:1;"/>
+    </g>
+    <!--link Metadata_Processing to Metadata_Processing-->
+    <g class="link" data-entity-1="ent0018" data-entity-2="ent0018" data-link-type="dependency" data-source-line="16" id="lnk20">
+      <path d="M446.71,720.8 C466.62,721.64 481.3,725.04 481.3,731 C481.3,736.96 472.6147,740.1071 452.7047,740.9471" fill="none" id="Metadata_Processing-to-Metadata_Processing" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="446.71,741.2,455.8706,744.8171,451.7056,740.9892,455.5334,736.8242,446.71,741.2" style="stroke:#181818;stroke-width:1;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="168.1621" x="487.3" y="735.5669">recurse on metadata FDO</text>
+    </g>
+    <!--link Metadata_Processing to Data_Processing-->
+    <g class="link" data-entity-1="ent0018" data-entity-2="ent0021" data-link-type="dependency" data-source-line="17" id="lnk22">
+      <path d="M362,756.46 C362,774.41 362,792.69 362,810.62" fill="none" id="Metadata_Processing-to-Data_Processing" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="362,816.62,366,807.62,362,811.62,358,807.62,362,816.62" style="stroke:#181818;stroke-width:1;"/>
+    </g>
+    <!--link Data_Processing to Data_Processing-->
+    <g class="link" data-entity-1="ent0021" data-entity-2="ent0021" data-link-type="dependency" data-source-line="19" id="lnk23">
+      <path d="M430.26,831.63 C449.8,832.04 464.87,835.5 464.87,842 C464.87,848.5 455.7987,851.8341 436.2587,852.2441" fill="none" id="Data_Processing-to-Data_Processing" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="430.26,852.37,439.3419,856.1803,435.2589,852.2651,439.1741,848.1821,430.26,852.37" style="stroke:#181818;stroke-width:1;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134.437" x="470.87" y="846.5669">recurse on data FDO</text>
+    </g>
+    <!--link Data_Processing to Collection_Processing-->
+    <g class="link" data-entity-1="ent0021" data-entity-2="ent0024" data-link-type="dependency" data-source-line="20" id="lnk25">
+      <path d="M362,867.46 C362,885.41 362,903.69 362,921.62" fill="none" id="Data_Processing-to-Collection_Processing" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="362,927.62,366,918.62,362,922.62,358,918.62,362,927.62" style="stroke:#181818;stroke-width:1;"/>
+    </g>
+    <!--link Collection_Processing to PID_Resolved-->
+    <g class="link" data-entity-1="ent0024" data-entity-2="ent0005" data-link-type="dependency" data-source-line="22" id="lnk26">
+      <path d="M448.27,941.22 C547.53,926.36 697,895.29 697,843 C697,365 697,365 697,365 C697,276.04 397.5609,250.0112 267.5109,242.8212" fill="none" id="Collection_Processing-to-PID_Resolved" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="261.52,242.49,270.2855,246.9807,266.5124,242.766,270.7271,238.9929,261.52,242.49" style="stroke:#181818;stroke-width:1;"/>
+      <text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="154.5845" x="698" y="608.5669">next collection member</text>
+    </g>
+    <!--link Collection_Processing to Done-->
+    <g class="link" data-entity-1="ent0024" data-entity-2="ent0027" data-link-type="dependency" data-source-line="23" id="lnk28">
+      <path d="M354.59,978.46 C349.16,996.41 343.5491,1014.9476 338.1191,1032.8776" fill="none" id="Collection_Processing-to-Done" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="336.38,1038.62,342.8169,1031.1657,337.8292,1033.8346,335.1603,1028.847,336.38,1038.62" style="stroke:#181818;stroke-width:1;"/>
+    </g>
+    <!--link Error to *end*-->
+    <g class="link" data-entity-1="ent0007" data-entity-2="ent0029" data-link-type="dependency" data-source-line="25" id="lnk30">
+      <path d="M216.4,756.23 C217.55,778.32 219,811.84 219,841 C219,841 219,841 219,1065 C219,1096.69 227.8827,1127.3812 233.6127,1144.4712" fill="none" id="Error-to-*end*" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="235.52,1150.16,236.4515,1140.3553,233.9305,1145.4194,228.8665,1142.8984,235.52,1150.16" style="stroke:#181818;stroke-width:1;"/>
+    </g>
+    <!--link Done to *end*-->
+    <g class="link" data-entity-1="ent0027" data-entity-2="ent0029" data-link-type="dependency" data-source-line="26" id="lnk31">
+      <path d="M305.82,1089.46 C286.03,1110.36 262.9359,1134.7338 250.2159,1148.1638" fill="none" id="Done-to-*end*" style="stroke:#181818;stroke-width:1;"/>
+      <polygon fill="#181818" points="246.09,1152.52,255.183,1148.7363,249.5283,1148.8898,249.3747,1143.235,246.09,1152.52" style="stroke:#181818;stroke-width:1;"/>
+    </g>
+    <?plantuml-src XPB1JiCm44Jl-nK-L-eFSE1IWyIX8gggNgegCiuMB3bsPBiL_3sx3Ibswy3DE_CyasooNnp4SlaecXVPRb2ZEMC7a4-P7RrbuK64ySWo51QpJo7uC46dPBmJHsNiRsx6KeaFNTke42_10n_e9gjGcddqY4sfzzpsQy1sfwpfL2AY78kaH9ReJUnLqXzG8vlWZzIJnTqfvREDhZ3kp3xCu6jCYYRLagqnHkFUeQBDiPVzwXElWVRR_m3YMRxEfiYRDf3_GsNDjQ9sS-MjHSsVkoYfohL_ok5d4lfAqplrRnZ-k2-zGu1nxJpl5mTWRHg-0G00?>
+  </g>
+</svg>
