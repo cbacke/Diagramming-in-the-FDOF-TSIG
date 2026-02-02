@@ -270,6 +270,10 @@ Purpose / Scope:
 
 ## 5. Diagram examples "FDO Processing Block"
 
+NOTE: The PlantUML and Mermaid code for all examples was created entirely by ChatGPT from an upload of the latest "Processing Document" version, and the following prompt:
+
+> You are a senior editor for technical specifications, and you are proficient in UML, PlantUML syntax, and Mermaid syntax. In the uploaded document, consider the numbered list below the section "FDO Processing Block". Write code for two UML digrams to visualize this list: (1) Activity diagram, (2) State diagram. For each diagram, write both PlantUML code and Mermaid code.
+
 ### 5.1. UML Activity Diagram
 
 #### 5.1.1. PlantUML
