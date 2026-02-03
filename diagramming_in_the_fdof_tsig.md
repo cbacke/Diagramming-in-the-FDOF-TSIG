@@ -64,7 +64,7 @@ Purpose / Scope:
     - Version-controllable (=> text-based source files)
     - Local-first (no cloud-only tools)
     - Cross-platform (Linux, Windows, Mac)
-    - Gratis
+    - Gratis (Free as in beer)
 
 ## 3. Diagram types and standards
 
